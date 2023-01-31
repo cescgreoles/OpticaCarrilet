@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.firstContainer-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+
+  .logo-principal {
+    background-color: green;
+    padding: 3em;
+    width: 60vw;
+  }
+
+  .iconos-derecha {
+    background-color: aqua;
+    padding: 3em;
+    width: 20em;
+  }
+}
+
+.secondContainer {
+  background-color: black;
+  padding: 1em;
+}
