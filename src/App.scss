@@ -30,3 +30,15 @@
   background-color: black;
   padding: 1em;
 }
+
+.FiveContainer {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+}
+
+.carouselReact {
+  background-color: orange;
+}
