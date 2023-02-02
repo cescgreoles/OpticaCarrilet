@@ -6,9 +6,9 @@ import { SiInstagram } from "react-icons/si";
 const IconosDerecha = () => {
   return (
     <div className="iconos-derecha">
-      <BsFillTelephoneFill />
-      <GrContact />
-      <SiInstagram />
+      <BsFillTelephoneFill className="icono" />
+      <GrContact className="icono" />
+      <SiInstagram className="icono" />
     </div>
   );
 };

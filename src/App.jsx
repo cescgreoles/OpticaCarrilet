@@ -11,6 +11,7 @@ import Audilogia from "./pages/Audilogia";
 
 import FivePages from "./components/FivePages/FivePages";
 import CarrusselReact from "./components/CarrusselReact/CarrusselReact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <div className="FiveContainer">
           <FivePages />
         </div>
+        <div></div>
       </div>
     </div>
   );
