@@ -4,7 +4,7 @@ function App() {
   const data = [
     {
       image:
-        "https://www.javea.com/wp-content/uploads/2016/03/gafas-optica-pico-sol.jpg",
+        "https://www.opticaliasanmiguel.es/wp-content/uploads/2020/10/BANNER-PROGRESIVOS-1.png",
       caption: `<div>
                   San Francisco
                   <br/>
@@ -13,17 +13,16 @@ function App() {
     },
     {
       image:
-        "https://www.opticaherrero.com/wp-content/uploads/2019/05/ulleres-vols.jpg",
+        "https://www.generaloptica.es/media/wysiwyg/banner_promo_1520x674_gg_OfertaEspecial_2_.jpg",
       caption: "",
     },
     {
       image:
-        "https://bluopticas.es/wp-content/uploads/2020/09/mujer-comprando-gafas-blu.jpg",
+        "https://www.generaloptica.es/media/promociones/general-optica-banner-promociones-8-es-m.jpg",
       caption: "",
     },
     {
-      image:
-        "https://opticagrefer.com/wp-content/uploads/2019/06/ofertas-gafas-madrid-2.jpg",
+      image: "https://gmo.com.co/media/wysiwyg/BANNER-GMO-FW-2-06-legal_1.png",
       caption: "",
     },
     {
@@ -64,18 +63,13 @@ function App() {
   return (
     <div className="carousel">
       <div style={{ textAlign: "center" }}>
-        <div
-          style={{
-            padding: "5px 20px",
-          }}
-        >
+        <div style={{}}>
           <Carousel
             data={data}
             time={2000}
-            width="800px"
-            height="300px"
+            width="100%"
+            height="23em"
             captionStyle={captionStyle}
-            radius="10px"
             slideNumber={true}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
@@ -83,13 +77,13 @@ function App() {
             dots={true}
             pauseIconColor="white"
             pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
+            slideBackgroundColor="#blue"
             slideImageFit="cover"
             thumbnails={true}
             thumbnailWidth="100px"
             style={{
               textAlign: "center",
-              maxWidth: "850px",
+              maxWidth: "100%",
               maxHeight: "500px",
               margin: "40px auto",
             }}

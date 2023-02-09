@@ -1,12 +1,12 @@
 import React from "react";
-import { Navigate } from "react-router-dom";
+
 import "../../styles/FivePages.scss";
 
 const FivePages = () => {
   return (
     <section>
       <div className="CardOne">
-        <div className="card" onClick={Navigate("/gafasgraduadas")}>
+        <div className="card">
           <p>Gafas Graduadas</p>
         </div>
         <div className="card">Gafas de Sol</div>

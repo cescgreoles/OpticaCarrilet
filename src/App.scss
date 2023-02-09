@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+.App #root {
+  width: 100vw;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -12,16 +19,15 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  background-color: #2879a7;
 
   .logo-principal {
-    background-color: green;
     padding: 3em;
     width: 60vw;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .iconos-derecha {
-    background-color: aqua;
     padding: 3em;
     width: 20em;
     display: flex;
@@ -33,13 +39,14 @@
   }
 }
 
-.secondContainer {
-  background-color: black;
-  padding: 1em;
+.middleText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
 }
 
 .FiveContainer {
-  background-color: beige;
   display: flex;
   flex-direction: column;
 
@@ -47,8 +54,18 @@
 }
 
 .carouselReact {
-  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.nuestraTienda {
+  padding: 3em;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: deepskyblue;
 }

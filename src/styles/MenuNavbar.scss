@@ -1,7 +1,12 @@
 .navbar-step {
   display: flex;
   justify-content: space-evenly;
+  background-color: #49c5b6;
+  height: 10vh;
+  align-items: center;
+
   a {
     text-decoration: none;
+    color: white;
   }
 }
